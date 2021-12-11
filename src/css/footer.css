@@ -1,0 +1,107 @@
+/* all block */
+.footer-wrapper_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #222222;
+  color: #ffffff;
+  padding: 50px 40px 0;
+}
+/* up  */
+.footer-wrapper_content_up {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d6d7f9;
+}
+.content_up_left_side {
+  margin-right: 175px;
+  height: fit-content;
+  width: fit-content;
+}
+.content_up_left_side_markets {
+  margin: 30px 0 50px 0;
+}
+.app-store {
+  margin-right: 10px;
+  width: 137px;
+  height: 40px;
+  cursor: pointer;
+}
+.google-play {
+  width: 137px;
+  height: 40px;
+  cursor: pointer;
+}
+.content_up_left_side_contacts-row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.content_up_left_side_contacts-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+}
+.content_up_left_side_contacts-p {
+  color: #acaff3;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+.content_up_left_side_contacts-row-p {
+  margin-left: 10px;
+}
+
+.content_up_right_side {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-around;
+  flex: 1 0 auto;
+}
+.content_up_right_side_block {
+  display: flex;
+  flex-direction: column;
+}
+.content_up_right_side_block-p {
+  margin-bottom: 20px;
+  color: #acaff3;
+  font-size: 16px;
+  line-height: 110%;
+}
+.content_up_right_side_block_list p {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+/* down */
+.footer-wrapper_content_down {
+  display: flex;
+  margin: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.social_footer_img_all {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.footer-wrapper_content_down-text {
+  font-size: 16px;
+  line-height: 110%;
+  align-items: center;
+}
+.footer-wrapper_content_down-p {
+  font-size: 16px;
+  line-height: 110%;
+}

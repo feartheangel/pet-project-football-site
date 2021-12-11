@@ -1,0 +1,62 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "misha@mail.ru",
+        "password": "admin",
+        "passwordDouble": "admin"
+    }, {
+        "id": 2,
+        "name": "liza@mail.ru",
+        "password": "liza",
+        "passwordDouble": "liza"
+    }
+],
+    "table": [
+        {
+            "sezons": "2021/2020",
+            "match": 5,
+            "goal": 10,
+            "assist": 3,
+            "total": 13,
+            "rating": 89.40
+        },
+        {
+            "sezons": "2020/2019",
+            "match": 10,
+            "goal": 2,
+            "assist": 4,
+            "total": 6,
+            "rating": 82.40
+        },
+        {
+            "sezons": "2019/2018",
+            "match": 51,
+            "goal": 105,
+            "assist": 30,
+            "total": 135,
+            "rating": 95.47
+        }
+    ],
+    "list_nav":[
+        {
+            "option": "Игроки"
+        },
+        {
+            "option": "Команды"
+        },
+        {
+            "option": "Расписание"
+        }
+    ],
+    "play":[
+        {
+            "option": "Play"
+        },
+        {
+            "option": "Record match"
+        },
+        {
+            "option": "Training"
+        }
+    ]
+}
